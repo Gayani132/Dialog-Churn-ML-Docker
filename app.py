@@ -14,7 +14,7 @@ model = joblib.load("churn_model.joblib")
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
-        "message": "Dialog Churn Prediction API is running"
+        "message": "Dialog Churn Prediction API is running now"
     })
 
 
